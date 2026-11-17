@@ -1,0 +1,13 @@
+{
+  "name": "heliogrid-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HelioGrid-AI full-stack application",
+  "scripts": {
+    "start": "cmd /c start.bat",
+    "dev": "cmd /c start.bat",
+    "backend": "cmd /c start-backend.bat",
+    "frontend": "npm --prefix frontend run dev"
+  }
+}
+

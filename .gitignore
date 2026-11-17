@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# local env / secrets
+.env
+.env.*
+!.env.example
+
+# misc
+.DS_Store
+*.pem
+.vercel
+*.tsbuildinfo
